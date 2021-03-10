@@ -386,7 +386,10 @@ textarea {
 }
 
 .form-button {
+  display: flex;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Features */
