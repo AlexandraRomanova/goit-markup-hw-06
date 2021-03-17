@@ -255,6 +255,7 @@ textarea {
   background-color: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .close-btn:hover {
@@ -357,6 +358,7 @@ textarea {
 .label {
   display: flex;
   padding: 0 10px;
+  margin-bottom: 30px;
   align-items: center;
 }
 
@@ -375,6 +377,7 @@ textarea {
   height: 15px;
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .checkbox:checked + .check-icon {
@@ -387,7 +390,6 @@ textarea {
 
 .form-button {
   display: flex;
-  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -462,7 +464,9 @@ textarea {
   position: absolute;
   margin: 0;
   bottom: 0;
-  padding: 27px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   height: 70px;
   width: 100%;
